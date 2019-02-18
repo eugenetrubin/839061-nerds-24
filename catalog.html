@@ -18,14 +18,14 @@
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
         <ul class="user-navigation">
-          <li class="basket-link">Корзина</li>
+          <li class="shopping-cart-link"><a href="shopping-cart.html">Корзина</a></li>
         </ul>
       </nav>
     </header>
   
     <main class="container">
       <h1 class="page-title">Магазин готовых шаблонов</h1>
-  
+
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <form class="filter" method="get" action="http://echo.htmlacademy.ru">
@@ -48,13 +48,32 @@
           </fieldset>
           <fieldset>
             <legend>особенности:</legend>
-			
-			
-			
-			
+            <ul>
+              <li class="filter-option">
+                <input class="filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+                <label for="filter-slider">Слайдер</label>
+              </li>
+              <li class="filter-option">
+                <input class="filter-input-checkbox" type="checkbox" name="advantage-block" id="filter-advantage-block">
+                <label for="filter-advantage-block">Блок преимуществ</label>
+              </li>
+              <li class="filter-option">
+                <input class="filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+                <label for="filter-news">Новости</label>
+              </li>
+              <li class="filter-option">
+                <input class="filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery">
+                <label for="filter-gallery">Галерея</label>
+              </li>
+              <li class="filter-option">
+                <input class="filter-input-checkbox" type="checkbox" name="shopping-cart" id="filter-shopping-cart">
+                <label for="filter-shopping-cart">Корзина</label>
+              </li>
+            </ul>
           </fieldset>
         </form>
       </section>
+
       <section class="catalog">
         <h2 class="visually-hidden">Каталог готовых шаблонов</h2>
         <ul class="catalog-list">
@@ -148,6 +167,7 @@
         <p>Скидка 10% для друзей из социальных сетей</p>
       </div>
     </footer>
+
       <section class="write-to-us">
         <h2>Напишите нам</h2>
         <form class="write-to-us-form" action="https://echo.htmlacademy.ru" method="post">
@@ -167,5 +187,6 @@
         </form>
         <button class="modal-close" type="button">Закрыть</button>
       </section>
+
   </body>
 </html>
