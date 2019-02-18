@@ -30,12 +30,28 @@
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <form class="filter" method="get" action="http://echo.htmlacademy.ru">
           <fieldset>
-          <legend>cетка:</legend>
-  
+            <legend>cетка:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="filter-input-radio" type="radio" name="filter-grid" value="adaptive" id="filter-adaptive" checked>
+                <label for="filter-adaptive">Адаптивная</label>
+              </li>
+              <li class="filter-option">
+                <input class="filter-input-radio" type="radio" name="filter-grid" value="fixed" id="filter-fixed">
+                <label for="filter-adaptive">Фиксированная</label>
+              </li>
+              <li class="filter-option">
+                <input class="filter-input-radio" type="radio" name="filter-grid" value="rubber" id="filter-rubber">
+                <label for="filter-adaptive">Резиновая</label>
+              </li>
+            </ul>
           </fieldset>
           <fieldset>
-          <legend>особенности:</legend>
-  
+            <legend>особенности:</legend>
+			
+			
+			
+			
           </fieldset>
         </form>
       </section>
@@ -49,7 +65,7 @@
                 <span class="catalog-item-title">Информационный сайт для туристов</span>
               </h3>
               <p class="catalog-item-image">
-                <img src="img/sedona.jpg" width="360" height="576"alt="SEDONA">
+                <img src="img/sedona.jpg" width="360" height="576" alt="SEDONA">
               </p>
             </a>
             <a class="price-button" href="#">9 900 РУБ.</a>
