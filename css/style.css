@@ -18,18 +18,21 @@ a {
 /*блок header весь*/
 .main-header{
   background-color: #eeeeee;
- 
 }
 /*блок навигации*/
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
   color: #000000;
-  
 }
 /*убираем маркеры в списке*/
 .site-navigation,
 .user-navigation {
   list-style: none;
+}
+/*цвет ссылок черный*/
+.site-navigation a,
+.user-navigation a {
+  color: #000000;
 }
 
