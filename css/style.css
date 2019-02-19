@@ -15,14 +15,18 @@ body {
 a {
   text-decoration: none;
 }
+/*блок header*/
+.main-header{
+  background-color: #eeeeee;
+  padding-top: 80px;
+    padding-bottom: 20px;
+}
+
 /*блок навигации*/
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
   color: #000000;
-  background-color: #eeeeee;
-}
-.main-header{
-  background-color: #eeeeee;
+  
 }
 
