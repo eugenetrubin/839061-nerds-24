@@ -15,18 +15,21 @@ body {
 a {
   text-decoration: none;
 }
-/*блок header*/
+/*блок header весь*/
 .main-header{
   background-color: #eeeeee;
-  padding-top: 80px;
-    padding-bottom: 20px;
+ 
 }
-
 /*блок навигации*/
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
   color: #000000;
   
+}
+/*убираем маркеры в списке*/
+.site-navigation,
+.user-navigation {
+  list-style: none;
 }
 
