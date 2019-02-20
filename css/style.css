@@ -17,13 +17,14 @@ a {
 }
 /*блок header весь*/
 .main-header{
-  background-color: #eeeeee;
+  
 }
 /*блок навигации*/
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
   color: #000000;
+  background-color: #eeeeee;
 }
 /*убираем маркеры в списке*/
 .site-navigation,
@@ -35,4 +36,9 @@ a {
 .user-navigation a {
   color: #000000;
 }
-
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #fb565a;
+}
